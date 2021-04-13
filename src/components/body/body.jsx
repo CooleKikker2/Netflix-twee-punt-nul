@@ -1,12 +1,13 @@
-import React from 'react';
-import '../../style/body/body.scss';
-import dragon from './dragon.jpg'
+import React from 'react'
+import BodyHead from './bodyHead';
+import Titlebox from './titleBox';
 
 class Body extends React.Component {
     render(){
         return(
-            <div className="body">
-                <img src={dragon} alt="dragon"></img>
+            <div>
+                <BodyHead></BodyHead>
+                <Titlebox></Titlebox>
             </div>
         )
     }

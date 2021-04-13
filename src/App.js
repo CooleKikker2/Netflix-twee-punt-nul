@@ -1,4 +1,3 @@
-import { Component } from "react";
 import Header from './components/header/header.jsx';
 import Body from './components/body/body.jsx';
 

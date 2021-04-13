@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+body{
+    background-color: grey;
+}
+
+
 *{
     font-family: 'Bebas Neue', cursive;
 }
@@ -8,6 +13,6 @@
     position: relative;
     z-index: -1;
     img{
-        width: 100%;
+        max-width: 100%;
     }
 }

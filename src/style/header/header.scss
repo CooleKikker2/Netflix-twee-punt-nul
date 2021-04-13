@@ -25,17 +25,23 @@ header{
         display: inline-block;
         list-style-type: none;
         line-height: 38px;
-        position: absolute;
         li{
             display: inline-block;
             width: auto;
             margin-left: 20px;
             letter-spacing: 0.7px;
             font-size: 17px;
+            
             a{
                 color: white;
                 text-decoration: none;
             }
+            
         }
+        .icon {
+            display: inline;
+            position: absolute;
+            right: 0;
+        }   
     }
 }
