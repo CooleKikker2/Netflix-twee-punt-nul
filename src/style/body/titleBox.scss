@@ -1,10 +1,57 @@
+h4{
+    color: white;
+    margin: 0;
+    height: 20px;
+    line-height: 20px;
+}
+
 .titles{
     margin-left: 15px;
-   .titleBox{
-        width: 16.6%;
-        height: 120px;
+    width: auto;
+    height: 120px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+
+    
+    &::-webkit-scrollbar{
+        display: none;
+    }
+
+
+    .titleBox{
+        // width: 16.6%;
+        height: 100%;
         background-color: black;
-        margin-top: -15vh;
-        margin-left: 2px;
+        margin-left: 5px;
+        color: white;
+        font-size: 16px;
+        display: inline-block;
+        border-radius: 15px;
+        margin-top: 0;
+        // overflow: hidden;
+        
+        img{
+            height: 100%;
+            width: auto;
+            z-index: 1;
+            position: relative;
+            border-radius: 15px;
+            margin-top: 0;
+        }
+        .text_bg{
+            z-index: 2;
+            position: relative;
+            background-color: rgba(0, 0, 0, 0.1);
+            width: 100%;
+            height: 100%;
+            p {
+                color: #e50914;
+                z-index: ;
+                //text-align: center;
+            }
+        }
     }
 }

@@ -36,12 +36,12 @@ class Header extends React.Component{
                         <li><Link to="#"><FontAwesomeIcon icon={faSearch} /></Link></li>
                         <li><Link to="#"><FontAwesomeIcon icon={faGift} /></Link></li>
                         <li><Link to="#"><FontAwesomeIcon icon={faBell} /></Link></li>
-                        <li>
+                        <ul>
                             <div className="profile">
                                 <li><Link to="#"><FontAwesomeIcon icon={faUsers} /></Link></li>
                                 <li><Link to="#"><FontAwesomeIcon icon={faSortDown} /></Link></li>
                             </div>
-                        </li>
+                        </ul>
                         
                     </BrowserRouter>
                     </div>
